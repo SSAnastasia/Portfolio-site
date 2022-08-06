@@ -62,9 +62,4 @@ p{
     background: var(--primary-color);
     color: white;
  }
- @media(max-width = "700px"){
-    .weather-link,
-    .sushi-link{
-        padding:10px 15 px;
-    }
- }
+ 
