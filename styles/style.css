@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+
+:root {
+    --primary-color: #ad5b8b;
+    --second-color: #dbacca;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 30px;
+
+}
+.info a{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    text-decoration: none;
+    
+}
+
+.contact{
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.about{
+     color: var(--primary-color);
+     border: 3px solid var(--primary-color);
+}  
+.weather-link, .sushi-link  {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+}
+p{
+    background: var(--second-color);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.paragraphs{
+    display: flex;
+     margin: 30px 0;
+}
+.paragraphs p{
+    justify-content: center;
+    margin: 10px;
+}
+#contact-me{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+ }
+ @media(max-width = "700px"){
+    .weather-link,
+    .sushi-link{
+        padding:10px 15 px;
+    }
+ }
